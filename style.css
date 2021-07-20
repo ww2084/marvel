@@ -1,0 +1,195 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #main_header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  h1.logo_t {
+    padding-top: 20px;
+  }
+  
+  h1.logo_t img {
+    width: 120px;
+    
+  }
+  
+  #gnb {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    
+  }
+  
+  #gnb > ul > li {
+    float: left;
+    width: 100px;
+    padding: 5px 0;
+    /* outline: 1px solid green; */
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  #gnb > ul > li.event {
+    background: #1860c9;
+    padding-right: 40px;
+    margin-left: 2em;
+    position: relative;
+  }
+ 
+  
+  #gnb > ul > li.event > a > span {
+    margin-left: 1em;
+  }
+  
+  #gnb > ul > li > a {
+    color: #000;
+    text-transform: uppercase;
+    display: block;
+   
+    
+  }
+  
+  
+  #gnb .depth2 { 
+    margin-top: 35px;
+    padding: 10px;
+    display: none; 
+  }
+  
+  
+  #gnb > ul > li:hover > .depth2{
+    display: block;
+  }
+  
+  #gnb .depth2 > li {
+    padding: 5px;
+  }
+  #gnb .depth2 > li > a {
+    color: #fff;
+    
+  }
+  
+  
+  #gnb > ul > li > a:hover {
+    text-decoration: underline;
+  }
+  
+  #gnb > ul > li:last-child > a:hover {
+    text-decoration: none;
+  }
+  
+  
+  #gnb .depth2 > li > a:hover {
+    color: rgba(255,255,255,0.75);
+  }
+  
+  
+  section {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+  }
+
+  
+  
+  #captainamerica, #ironman, #spiderman {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  #captainamerica {
+    background-image: url(./imges/c_bac.jpg);
+    background-attachment: fixed;
+  }
+  #ironman {
+    background-image: url(./imges/iman_bac.jpg);
+    background-attachment: fixed;
+  }
+  #spiderman {
+    background-image: url(./imges/s_bac.jpeg);
+  }
+  
+  .section_nav {
+    margin-top: 1.5em;
+    
+  }
+  .section_nav > ul > li {
+    display: inline-block;
+    color: #fff;
+  }
+  
+  .section_nav > ul > li > a {
+    color: #fff;
+  }
+  
+  .section_nav > ul > li > span {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+  }
+  
+  .section_group {
+     padding-top: 30px;
+     padding-right: 30pxs;
+  }
+
+ 
+  
+  #main_footer {
+    background: #363636;
+    color: #9b9b9b;
+    height: 100px;
+    padding: 0 50px;
+  }
+  #main_footer a {
+    color: #9b9b9b;
+  }
+  .copy {
+    font-size: 10px;
+  }
+  .footer_nav {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  
+  .left {
+    float: left;
+    margin-top: 10px;
+  }
+  .footer_logo {
+    vertical-align: middle;
+    margin-right: 1em;
+  }
+  .right {
+    float: right;
+    margin-top: 16px;
+  }
+  .footer_nav > li {
+    display: inline-block;
+    margin-left: 2em;
+  }
